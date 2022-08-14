@@ -1,38 +1,158 @@
-.titulo-principal {
-  padding-left: 30px;
-}
-
-em strong {
-  color: red;
-}
-
-#mision {
-  font-size: 20px;
-}
-
-#banner {
+/* header {
+  background-color: #bbbbbbbb;
+  padding: 20px 0;
   width: 100%;
 }
 
-.diferenciales {
-  background-color: white;
-  text-align: left;
-  padding: 30px;
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
 }
 
-.principal {
-  text-align: center;
-  background-color: #cccccccc;
-  padding: 20px;
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+.caja {
+  position: relative;
+  margin: 0 auto;
+  width: 940px;
+  
+} */
+header {
+  background: #cccccc;
+  padding: 20px 0;
+}
+.caja {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
 }
 
-ul {
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+header {
+  background-color: #bbbbbb;
+  padding: 20px 0;
+}
+
+.caja {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+
+.productos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px;
+}
+.productos li {
   display: inline-block;
+  text-align: center;
+  width: 30%;
   vertical-align: top;
-  width: 20%;
-  margin-right: 15%;
+  margin: 0 1.15%;
+  padding: 30px 20px;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
 }
 
-.imagenDiferenciales {
+.productos li:hover {
+  border-color: #c78c19;
+}
+
+.productos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.productos li:hover h2 {
+  font-size: 33px;
+}
+
+.productos li:active {
+  border-color: green;
+}
+
+.producto-descripcion {
+  font-size: large;
+}
+.producto-precio {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  background: url(imagen/bg.jpg);
+  padding: 40px;
+}
+
+footer p {
+  color: #ffffff;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label,
+form p {
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+.input-padron {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
   width: 50%;
+}
+
+.checkbox {
+  margin: 20px 0px;
 }

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contacto Barberia Alura</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="caja">
+        <h1><img src="imagen/logo.png" /></h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="http://www.google.com">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <form>
+        <label for="nombreApellido">Nombre y Apellido</label>
+        <input type="text" id="nombreApellido" class="input-padron" />
+
+        <label for="email">Correo Electronico</label>
+        <input type="text" id="email" class="input-padron" />
+
+        <label for="telefono">Telefono</label>
+        <input type="text" id="telefono" class="input-padron" />
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" cols="70" rows="10"></textarea>
+
+        <div>
+          <p>¿Como le gustaria que lo contactemos?</p>
+
+          <label for="radio-email">
+            <input
+              type="radio"
+              name="contacto"
+              value="email"
+              id="radio-email"
+            />Email
+          </label>
+
+          <label for="radio-telefono">
+            <input
+              type="radio"
+              name="contacto"
+              value="telefono"
+              id="radio-telefono"
+            />Telefono
+          </label>
+
+          <label for="radio-whatsapp"
+            ><input
+              type="radio"
+              name="contacto"
+              value="whatsapp"
+              id="radio-whatsapp"
+            />Whats App
+          </label>
+        </div>
+
+        <label class="checkbox">
+          <input type="checkbox" />¿Le gustia recibir novedades de la Barberia
+          Alura?
+        </label>
+
+        <input type="submit" value="Enviar Formulario"
+      </form>
+    </main>
+    <footer>
+      <img src="imagen/logo-blanco.png" />
+      <p>&copy Copiright Barberia Don Mati - 2020</p>
+    </footer>
+  </body>
+</html>
